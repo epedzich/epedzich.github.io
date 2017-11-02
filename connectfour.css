@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://zennovember.files.wordpress.com/2015/08/tumblr-background-renaissance-blue-backgrounds-437194937.jpg');
+    color: whitesmoke;
+    font-family: 'Poiret One', cursive;
+}
+.board button {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(128, 128, 128);
+    margin: 1px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+
+}

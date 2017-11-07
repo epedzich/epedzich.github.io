@@ -1,7 +1,208 @@
 body {
     font-family: 'Lora', serif;
-    background-color: gray;
+    background-color: antiquewhite;
+    padding-top: 170px;
+    margin-bottom: 15px;
+
 }
-.icon-bar {
+#mynav{
+    padding-top: 90px;
+    background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+    border: 0px;
+    font-size: 1.3em;
+
+}
+#mynav *{
+    color: white;
+    }
+
+#mynav .dropdown-menu *{
+    background-color: white;
+    color:black;
+
+}
+#mynav .dropdown-menu *:hover{
+    background-color: black;
+    color:white;
+}
+
+#mynav a:hover{
+    background-color: black;
+}
+#mynav a:focus{
+    background-color: black;
+}
+
+#burger .icon-bar {
+    background-color: red;
+}
+
+#myglyph {
     color: red;
+
+}
+
+h1, h3{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-bottom: 13px;
+
+}
+
+h4{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+button.accordion {
+    background-color: white;
+    color: #60151f;
+    cursor: pointer;
+    padding: 13px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #60151f;
+    color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.cv_date {
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color: #60151f;
+    color: white;
+    padding: 4px;
+}
+
+.lang_stars{
+    font-size: 1.3em;
+    color: #60151f;
+    float: right;
+}
+.skill_stars{
+    font-size: 1.8em;
+    color: #60151f;
+
+}
+
+
+.inner1{
+    display: inline-block;
+    float: center;
+}
+.inner2{
+    display: inline-block;
+    float: right;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+
+}
+
+.flex-container > * {
+    padding: 30px;
+    flex: 1 100%;
+    background-color: antiquewhite;
+    /*box-shadow: 2px 2px black;*/
+    /*margin: 5px;*/
+
+}
+
+footer {
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+
+
+    color: #60151f;
+    height: 100px;
+
+    text-align: center;
+}
+
+
+.main {
+
+    text-align: left;
+    padding: 80px;
+    /*background: cornflowerblue;*/
+
+}
+
+.header {
+    /*background: coral;*/
+}
+.aside1 {
+    text-align: justify;
+    text-justify: inter-word;
+    /*background: moccasin;*/
+}
+.aside2 {
+    text-align: justify;
+    text-justify: inter-word;
+    /*background: violet;*/
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1 0px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .main {
+        flex: 3 0px;
+    }
+
+    .aside1 {
+        order: 1;
+    }
+
+    .main {
+        order: 2;
+    }
+
+    .aside2 {
+        order: 3;
+    }
+
+
+    /*.footer {*/
+        /*order: 4;*/
+    /*}*/
 }

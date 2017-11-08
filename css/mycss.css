@@ -107,6 +107,13 @@ button.accordion.active:after {
 .skill_stars{
     font-size: 1.8em;
     color: #60151f;
+}
+.myheader{
+    background-color: #60151f;
+    color: white;
+    padding: 4px;
+    font-size: 0.9em;
+    margin-top: 4px;
 
 }
 

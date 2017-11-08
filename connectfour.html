@@ -2,22 +2,56 @@
 <html lang = "en">
 <head>
 	<meta charset = "UTF-8">
-	<title>CONNECT FOUR</title>
+	<title>Ewelina Pedzich Portfolio</title>
 
 	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 	      integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 	      crossorigin = "anonymous">
-	<link rel = "stylesheet" href = "css/connectfour.css">
+	<link rel = "stylesheet" href = "css/mycss.css">
 
-	<link href = "https://fonts.googleapis.com/css?family=Poiret+One" rel = "stylesheet">
+	<link href = "https://fonts.googleapis.com/css?family=Poiret+One|Pacifico|Lora" rel = "stylesheet">
+
 
 </head>
 <body>
 
+<nav class = "navbar navbar-default navbar-fixed-top" id = "mynav">
+	<div class = "container-fluid">
+		<div class = "navbar-header">
+			<button type = "button" id = "burger" class = "navbar-toggle collapsed" data-toggle = "collapse"
+			        data-target = "#bs-example-navbar-collapse-1" aria-expanded = "false">
+				<span class = "sr-only">Toggle navigation</span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			<a class = "navbar-brand" href = "index.html">
+				<span class = "glyphicon glyphicon-home" id = "myglyph" aria-hidden = "true"></span></a>
+		</div>
+
+		<div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+
+			<ul class = "nav navbar-nav" id = "myul">
+				<li class = "link"><a href = "omnie.html">O mnie<span class = "sr-only">(current)</span></a></li>
+				<li class = "dropdown">
+					<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button"
+					   aria-haspopup = "true" aria-expanded = "false">JavaScript<span class = "caret"></span></a>
+					<ul class = "dropdown-menu">
+						<li><a href = "connectfour.html">Connect Four</a></li>
+						<li><a href = "#">Tic Tac Toe</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
 <div class = "container" align = "center">
-	<h1>Witaj w grze Połącz 4!</h1>
-	<h2>Celem gry jest połączenie 4 żetonów tego samego koloru w rzędzie, kolumnie lub na ukos</h2>
-	<h3>teraz twoja kolej, wybierz kolumnę, do której zrzucisz swój krążek</h3>
+	<h1>Welcome in Connect Four game!</h1>
+	<h2>Goal of the game is to match four chips of the same color vertically, horizontally or diagonal</h2>
+	<h3></h3>
+
 
 	<table class = "board">
 		<tr>
@@ -160,10 +194,39 @@
 		</tr>
 
 	</table>
+
 </div>
+<footer role = contentinfo>
+
+
+	<div>
+		<div class = "inner1"><h4>Contact me</h4>
+			<a target = "_blank" href = "https://www.facebook.com/ewelina.pedzich.7"><img height = "56"
+			                                                                              src = "images/if_facebook_2308066.png"></a>
+
+			<a target = "_blank" href = "mailto:ewelina.pedzich@student.uw.edu.pl"><img height = "56"
+			                                                                            src = "images/if_email_2308112.png"></a>
+
+			<a target = "_blank" href = "mailto:moquedire@yahoo.com"><img height = "56"
+			                                                              src = "images/if_yahoo_2308142.png"></a></div>
+
+		<div class = "inner2">
+			<h4>My works</h4>
+			<a target = "_blank" href = "https://github.com/epedzich"><img height = "56"
+			                                                               src = "images/if_github_2308116.png"></a>
+		</div>
+	</div>
+
+
+</footer>
 
 <script src = "https://code.jquery.com/jquery-3.1.1.min.js"
         integrity = "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin = "anonymous"></script>
-<script src = "script/Part3_FrontEndProject.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin = "anonymous"></script>
+
+<script src = "script/connectfour.js"></script>
 </body>
+
 </html>

@@ -5,31 +5,35 @@ body {
     margin-bottom: 15px;
 
 }
-#mynav{
+
+#mynav {
     padding-top: 90px;
     background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
     border: 0px;
     font-size: 1.3em;
 
 }
-#mynav *{
+
+#mynav * {
     color: white;
-    }
+}
 
-#mynav .dropdown-menu *{
+#mynav .dropdown-menu * {
     background-color: white;
-    color:black;
+    color: black;
 
 }
-#mynav .dropdown-menu *:hover{
+
+#mynav .dropdown-menu *:hover {
     background-color: black;
-    color:white;
+    color: white;
 }
 
-#mynav a:hover{
+#mynav a:hover {
     background-color: black;
 }
-#mynav a:focus{
+
+#mynav a:focus {
     background-color: black;
 }
 
@@ -42,7 +46,7 @@ body {
 
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     font-family: 'Pacifico', cursive;
     text-align: center;
     padding-bottom: 13px;
@@ -50,7 +54,7 @@ h1, h2, h3{
 
 }
 
-h4{
+h4 {
     font-family: 'Pacifico', cursive;
     text-align: center;
 }
@@ -100,17 +104,19 @@ button.accordion.active:after {
     padding: 4px;
 }
 
-.lang_stars{
+.lang_stars {
     font-size: 1.3em;
     color: #60151f;
     float: right;
 }
-.skill_stars{
+
+.skill_stars {
     font-size: 1.8em;
     color: #60151f;
     display: inline-block;
 }
-.myheader{
+
+.myheader {
     background-color: #60151f;
     color: white;
     padding: 4px;
@@ -132,12 +138,12 @@ a {
     border: 3px solid #60151f;
 }
 
-
-.inner1{
+.inner1 {
     display: inline-block;
     float: center;
 }
-.inner2{
+
+.inner2 {
     display: inline-block;
     float: right;
 }
@@ -148,9 +154,8 @@ a {
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 90px;
-    margin-right: 90px;
-
+    margin-left: 80px;
+    margin-right: 80px;
 
 }
 
@@ -171,13 +176,11 @@ footer {
     padding: 1rem;
     margin-top: 50px;
 
-
     color: #60151f;
     height: 100px;
 
     text-align: center;
 }
-
 
 .main {
 
@@ -188,28 +191,36 @@ footer {
 }
 
 .header {
-    /*background: coral;*/
+
 }
+
 .aside1 {
     text-align: justify;
     text-justify: inter-word;
-    /*background: moccasin;*/
+
 }
+
 .aside2 {
-    text-align: justify;
-    text-justify: inter-word;
-    /*background: violet;*/
+
 }
 
-@media all and (min-width: 600px) {
-    .aside {
-        flex: 1 0px;
-    }
-}
+/*@media all and (min-width: 1200px) {*/
+    /*.main {*/
+        /*flex: 3 0px;*/
+    /*}*/
 
-@media all and (min-width: 800px) {
+    /*.aside {*/
+        /*flex: 1 0px;*/
+    /*}*/
+/*}*/
+
+@media all and (min-width: 1200px) {
     .main {
         flex: 3 0px;
+    }
+
+    .aside {
+        flex: 1 0px;
     }
 
     .aside1 {
@@ -224,9 +235,8 @@ footer {
         order: 3;
     }
 
-
     /*.footer {*/
-        /*order: 4;*/
+    /*order: 4;*/
     /*}*/
 }
 
@@ -237,6 +247,7 @@ footer {
     margin: 6px;
 
 }
+
 .wrapper {
     text-align: center;
 }
@@ -252,7 +263,7 @@ footer {
     background-color: #60151f;
 }
 
-.ttt{
+.ttt {
     margin: auto;
 }
 

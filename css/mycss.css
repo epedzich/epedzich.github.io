@@ -10,7 +10,7 @@ body {
     padding-top: 90px;
     background-image: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
     border: 0px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 
 }
 
@@ -160,7 +160,7 @@ a {
 }
 
 .flex-container > * {
-    padding: 30px;
+    padding: 25px;
     flex: 1 100%;
     background-color: antiquewhite;
     /*box-shadow: 2px 2px black;*/
@@ -185,7 +185,7 @@ footer {
 .main {
 
     text-align: left;
-    padding: 80px;
+    padding: 6% 7%;
     /*background: cornflowerblue;*/
 
 }
@@ -196,7 +196,6 @@ footer {
 
 .aside1 {
     text-align: justify;
-    text-justify: inter-word;
 
 }
 
@@ -204,27 +203,21 @@ footer {
 
 }
 
-/*@media all and (min-width: 1200px) {*/
-    /*.main {*/
-        /*flex: 3 0px;*/
-    /*}*/
-
-    /*.aside {*/
-        /*flex: 1 0px;*/
-    /*}*/
-/*}*/
-
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1400px) {
     .main {
         flex: 3 0px;
     }
 
-    .aside {
+    .aside1 {
+        flex: 1.5 0px;
+    }
+    .aside2{
         flex: 1 0px;
     }
 
     .aside1 {
         order: 1;
+
     }
 
     .main {
